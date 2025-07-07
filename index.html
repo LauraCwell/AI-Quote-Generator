@@ -8,34 +8,42 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header>
-      <h1>AI Quote Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input type="text" placeholder="Enter a topic..." autofocus required />
-        <input type="submit" />
-      </form>
-      <div>
-        "Be the change that you wish to see in the world."
-        <br />
-        - Mahatma Gandhi.
-      </div>
-    </main>
+    <div class="container">
+      <header>
+        <h1>AI Quote Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a topic..."
+            autofocus
+            required
+            class="prompt"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="quote">
+          "Be the change that you wish to see in the world."
+          <br />
+          - Mahatma Gandhi.
+        </div>
+      </main>
 
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/LauraCwell" target="blank">Laura Cardwell</a>,
-      is open-source on<a
-        href="https://github.com/LauraCwell/AI-Quote-Generator"
-        target="blank"
-      >
-        Github</a
-      >, and hosted on
-      <a href="https://laura-ai-quote-generator.netlify.app/" target="blank"
-        >Netlify</a
-      >
-    </footer>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/LauraCwell" target="blank">Laura Cardwell</a
+        >, is open-source on<a
+          href="https://github.com/LauraCwell/AI-Quote-Generator"
+          target="blank"
+        >
+          Github</a
+        >, and hosted on
+        <a href="https://laura-ai-quote-generator.netlify.app/" target="blank"
+          >Netlify.</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
