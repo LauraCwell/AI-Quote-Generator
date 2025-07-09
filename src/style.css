@@ -29,6 +29,7 @@ a {
   border-radius: 15px;
   margin-bottom: 30px;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  width: 92%;
 }
 .hint {
   font-size: 13px;
@@ -46,14 +47,14 @@ a {
 .prompt {
   padding: 16px;
   border: 2px, solid #7371fc;
-  width: 80%;
+  width: 100%;
   font-size: 16px;
   border-radius: 50px;
   line-height: 20px;
   color: #0c033a;
 }
 .submit-button {
-  margin-left: 10px;
+  margin-left: 5px;
   background: #7371fc;
   color: white;
   border: none;
