@@ -15,18 +15,22 @@
         <h1>AI Quote Generator</h1>
       </header>
       <main>
-        <form id="quote-form">
-          <input
-            type="text"
-            placeholder="Enter a topic..."
-            autofocus
-            required
-            class="prompt"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="quote" id="quote"></div>
+        <div class="form-container">
+          <form id="quote-form">
+            <input
+              type="text"
+              placeholder="Enter a topic..."
+              autofocus
+              required
+              class="prompt"
+              id="user-instructions"
+            />
+
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e. Reading, Nature, Travel</div>
+        </div>
+        <div class="quote hidden" id="quote"></div>
       </main>
 
       <footer>
